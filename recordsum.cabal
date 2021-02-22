@@ -4,10 +4,10 @@ cabal-version:       >=1.10
 
 name:                recordsum
 version:             0.1.0.0
--- synopsis:
+synopsis:            Support for generic field accessors using the "recordsum" data type pattern
 -- description:
 -- bug-reports:
--- license:
+license:             MIT
 license-file:        LICENSE
 author:              Cliff Harvey
 maintainer:          cs.hbar+hs@gmail.com

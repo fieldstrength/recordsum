@@ -36,12 +36,19 @@ test-suite recordsum-tests
   main-is:
     Main.hs
   default-extensions:
+    DataKinds
+    DeriveGeneric
+    DerivingStrategies
+    DuplicateRecordFields
     TemplateHaskell
+    TypeApplications
   other-modules:
     RecordSum.FieldSpec
   hs-source-dirs:
     test
   build-depends:
       recordsum
+
     , base >=4.14 && <4.15
     , hedgehog
+    , lens
